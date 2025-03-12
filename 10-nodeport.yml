@@ -7,6 +7,7 @@ spec:
   selector:
     project: expense
     component: backend
+    environment: dev
     verison: "1.0"
   ports:
    - protocal: TCP
@@ -16,7 +17,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: backend
+  name: backend-np
   labels:
     project: expense
     component: backend
