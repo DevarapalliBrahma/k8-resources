@@ -12,12 +12,12 @@ spec:
       app: frontend
       tier: web
   template:
-    metadat:
+    metadata:
       labels:
         app: frontend
         tier: web
     spec:
-      container:
+      containers:
       - name: nginx
         image: nginx
 
