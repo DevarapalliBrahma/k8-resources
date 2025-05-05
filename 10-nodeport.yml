@@ -9,7 +9,7 @@ spec:
     project: expense
     version: "2.0"
   ports: 
-    protocol: TCP
+  - protocol: TCP
     port: 80
     targetPort: 80
     nodePort: 30017
